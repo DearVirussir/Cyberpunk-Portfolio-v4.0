@@ -63,24 +63,36 @@ start index.html
   █                                                                         █
   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
-<h2>Key Features:</h2>
+```<h2>Key Features:</h2>
 
-Cyberpunk ASCII art borders
-
-Interactive badge links
-
-Glowing UI elements
-
-Matrix-inspired code blocks
-
-System metrics visualization
-
-Security disclaimer
-
-Animated GIF accents
-
-Responsive layout
-
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║  [✧] CYBERPUNK ASCII ART BORDERS                                       ║
+║  » Glowing terminal-style frames with matrix effects                   ║
+║                                                                        ║
+║  [✧] INTERACTIVE BADGE LINKS                                           ║
+║  » Hacker-style clickable shields with pulse animations                ║
+║                                                                        ║
+║  [✧] GLOWING UI ELEMENTS                                               ║
+║  » Neon-lit components with 0xRRGGBB color codes                       ║
+║                                                                        ║
+║  [✧] MATRIX-INSPIRED CODE BLOCKS                                       ║
+║  » Falling character animations in command prompts                     ║
+║                                                                        ║
+║  [✧] SYSTEM METRICS VISUALIZATION                                      ║
+║  » Real-time stats with CPU/RAM monitoring effects                     ║
+║                                                                        ║
+║  [✧] SECURITY DISCLAIMER                                               ║
+║  » Animated encryption status with 256-bit verification                ║
+║                                                                        ║
+║  [✧] ANIMATED GIF ACCENTS                                              ║
+║  » Digital rain and circuit board overlays                             ║
+║                                                                        ║
+║  [✧] RESPONSIVE LAYOUT                                                 ║
+║  » Adapts to all viewports from smartwatches to 8K displays            ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+```
 <div align="center">
   <div>
     <a href="mailto:dear.virus.420@gmail.com"><img src="https://img.shields.io/badge/📧_EMAIL-dear.virus.420%40gmail.com-ff00ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>

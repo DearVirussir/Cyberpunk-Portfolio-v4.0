@@ -1,6 +1,6 @@
 # <div align="center">🖥️ 𝗖𝗬𝗕𝗘𝗥𝗣𝗨𝗡𝗞 𝗣𝗢𝗥𝗧𝗙𝗢𝗟𝗜𝗢 𝗩𝟰.𝟬 🔮</div>
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-█░▒▓█░▒▓█░▒▓█░▒▓█░▒▓[ 𝗦𝗬𝗘𝗗 𝗠𝗨𝗛𝗔𝗠𝗠𝗔𝗗 𝗞𝗛𝗨𝗕𝗔𝗜𝗕 𝗦𝗛𝗔𝗛 ]█░▒▓█░▒▓█░▒▓█░▒▓█░▒▓
+█░▒▓█░▒▓█░▒▓█░▒▓█░▒▓█░▒▓[ 𝗦𝗬𝗘𝗗 𝗠𝗨𝗛𝗔𝗠𝗠𝗔𝗗 𝗞𝗛𝗨𝗕𝗔𝗜𝗕 𝗦𝗛𝗔𝗛 ]█░▒▓█░▒▓█░▒▓█░▒▓█░▒▓█░▒▓
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 <div align="center"> <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="200"> </div>
 𝗔 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗳𝗼𝗿𝘁𝗿𝗲𝘀𝘀 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗰𝘆𝗯𝗲𝗿-𝗮𝗴𝗲 𝘁𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝘀𝘁
@@ -80,3 +80,16 @@ Security disclaimer
 Animated GIF accents
 
 Responsive layout
+
+<div align="center">
+  <div>
+    <a href="mailto:dear.virus.420@gmail.com"><img src="https://img.shields.io/badge/📧_EMAIL-dear.virus.420%40gmail.com-ff00ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+    <a href="https://t.me/dear_virus"><img src="https://img.shields.io/badge/📱_TELEGRAM-%40dear__virus-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+    <a href="tel:+92709213915"><img src="https://img.shields.io/badge/☎️_PHONE-%2B92%20709%20213915-00ffff?style=for-the-badge&logo=whatsapp&logoColor=black" alt="Phone"></a>
+  </div>
+  <div style="margin-top: 10px;">
+    <a href="https://github.com/dear-virus"><img src="https://img.shields.io/badge/💻_GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+    <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/💼_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/🐦_TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+  </div>
+</div>

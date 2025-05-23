@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | SMKS Cyber Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap');
+        
+        :root {
+            --neon-blue: #00f3ff;
+            --neon-pink: #ff00e6;
+            --neon-purple: #b400ff;
+            --dark-bg: #0a0a12;
+        }
+        
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background-color: var(--dark-bg);
+            color: white;
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .neon-text {
+            text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue);
+        }
+        
+        .glow-btn {
+            background: linear-gradient(45deg, var(--neon-blue), var(--neon-purple));
+            box-shadow: 0 0 15px var(--neon-blue);
+            transition: all 0.3s ease;
+        }
+        
+        .glow-btn:hover {
+            box-shadow: 0 0 25px var(--neon-pink);
+            transform: translateY(-3px);
+        }
+        
+        #matrix-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        
+        .checkmark {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: block;
+            stroke-width: 6;
+            stroke: var(--neon-blue);
+            stroke-miterlimit: 10;
+            box-shadow: 0 0 20px var(--neon-blue);
+            animation: fill 0.6s ease-in-out forwards, scale 0.5s ease-in-out both;
+        }
+        
+        .checkmark__circle {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 6;
+            stroke-miterlimit: 10;
+            stroke: var(--neon-blue);
+            fill: none;
+            animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+        }
+        
+        .checkmark__check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.6s forwards;
+        }
+        
+        @keyframes stroke {
+            100% { stroke-dashoffset: 0; }
+        }
+        
+        @keyframes scale {
+            0%, 100% { transform: none; }
+            50% { transform: scale3d(1.1, 1.1, 1); }
+        }
+        
+        @keyframes fill {
+            100% { box-shadow: 0 0 30px var(--neon-pink); }
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Matrix Background -->
+    <div id="matrix-bg"></div>
+    
+    <!-- Floating Elements -->
+    <div class="floating-cube floating" style="top: 20%; left: 10%;"></div>
+    <div class="floating-cube floating" style="top: 70%; left: 80%; animation-delay: 2s;"></div>
+    
+    <!-- Main Content -->
+    <div class="min-h-screen flex flex-col items-center justify-center text-center px-4">
+        <!-- Animated Checkmark -->
+        <svg class="checkmark mb-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+        </svg>
+        
+        <!-- Thank You Message -->
+        <h1 class="text-4xl md:text-6xl font-bold neon-text mb-6">MESSAGE SENT!</h1>
+        <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+            Thanks for reaching out! I'll get back to you soon.<br>
+            <span class="text-neon-blue">Expect a response within 24 hours.</span>
+        </p>
+        
+        <!-- Interactive Particles Button -->
+        <a href="index.html" class="glow-btn px-10 py-4 rounded-full text-black font-bold text-lg relative overflow-hidden group">
+            <span class="relative z-10">RETURN TO PORTFOLIO</span>
+            <span class="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple opacity-0 group-hover:opacity-100 transition-all duration-300"></span>
+        </a>
+        
+        <!-- Social Links -->
+        <div class="mt-12">
+            <p class="text-gray-400 mb-4">Or connect with me on:</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://t.me/dear_virus" target="_blank" class="text-3xl text-gray-300 hover:text-neon-blue transition-all">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="mailto:dear.virus.420@gmail.com" class="text-3xl text-gray-300 hover:text-neon-blue transition-all">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+92709213915" class="text-3xl text-gray-300 hover:text-neon-blue transition-all">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Initialize Vanta.js matrix background
+        VANTA.NET({
+            el: "#matrix-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x00f3ff,
+            backgroundColor: 0x0a0a12,
+            points: 12.00,
+            maxDistance: 22.00,
+            spacing: 18.00
+        });
+        
+        // Create floating 3D cubes
+        document.addEventListener('DOMContentLoaded', function() {
+            const cubes = document.querySelectorAll('.floating-cube');
+            
+            cubes.forEach(cube => {
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+                const renderer = new THREE.WebGLRenderer({ alpha: true });
+                renderer.setSize(100, 100);
+                cube.appendChild(renderer.domElement);
+                
+                const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
+                const material = new THREE.MeshBasicMaterial({ 
+                    color: 0x00f3ff,
+                    wireframe: true 
+                });
+                const torus = new THREE.Mesh(geometry, material);
+                scene.add(torus);
+                
+                camera.position.z = 30;
+                
+                function animate() {
+                    requestAnimationFrame(animate);
+                    torus.rotation.x += 0.01;
+                    torus.rotation.y += 0.01;
+                    renderer.render(scene, camera);
+                }
+                
+                animate();
+            });
+        });
+    </script>
+</body>
+</html>

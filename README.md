@@ -93,15 +93,31 @@ start index.html
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
 ```
+```
+╔════════════════════════════════════════════════╗
+║  █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█  ║
+║  █ ■■■■■ CYBER CONTACT CHANNELS ■■■■■ █  ║
+║  █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█  ║
+║                                                ║
+║  🔮 » 📧 EMAIL: [dear.virus.420@gmail.com]     ║
+║  🌀 » 📱 TELEGRAM: [@dear_virus]              ║
+║  💾 » ☎ PHONE: [+92 709 213915]               ║
+║  🖥️ » 💻 GITHUB: [github.com/dear-virus]      ║
+║  🔗 » 💼 LINKEDIN: [linkedin.com/in/yourprofile]║
+║  🐦 » 🐤 TWITTER: [twitter.com/yourhandle]     ║
+║                                                ║
+║  ████████████████████████████████████████████  ║
+║  █ ■ SECURE ENCRYPTED CONNECTION ACTIVATED ■ █  ║
+║  ████████████████████████████████████████████  ║
+╚════════════════════════════════════════════════╝
+```
 <div align="center">
-  <div>
-    <a href="mailto:dear.virus.420@gmail.com"><img src="https://img.shields.io/badge/📧_EMAIL-dear.virus.420%40gmail.com-ff00ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-    <a href="https://t.me/dear_virus"><img src="https://img.shields.io/badge/📱_TELEGRAM-%40dear__virus-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
-    <a href="tel:+92709213915"><img src="https://img.shields.io/badge/☎️_PHONE-%2B92%20709%20213915-00ffff?style=for-the-badge&logo=whatsapp&logoColor=black" alt="Phone"></a>
-  </div>
-  <div style="margin-top: 10px;">
-    <a href="https://github.com/dear-virus"><img src="https://img.shields.io/badge/💻_GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-    <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/💼_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/🐦_TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-  </div>
-</div>
+
+[![Cyber Email](https://img.shields.io/badge/📧_CYBER_MAIL-dear.virus.420%40gmail.com-ff00ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=black)](mailto:dear.virus.420@gmail.com)
+[![Ghost Telegram](https://img.shields.io/badge/📡_GHOST_PROTOCOL-%40dear__virus-00ffff?style=for-the-badge&logo=telegram&logoColor=white&labelColor=black)](https://t.me/dear_virus)  
+[![Secure Call](https://img.shields.io/badge/📞_ENCRYPTED_CALL-%2B92%20709%20213915-00ff00?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=black)](tel:+92709213915)
+[![GitHub](https://img.shields.io/badge/💾_SOURCE_CODE-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dear-virus)  
+[![LinkedIn](https://img.shields.io/badge/🔗_NETWORK_PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=black)](https://linkedin.com/in/yourprofile)
+[![Twitter](https://img.shields.io/badge/🌐_DATA_STREAM-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=black)](https://twitter.com/yourhandle)
+
+![Matrix Animation](https://media.giphy.com/media/12zV7u6Bh0vHpu/giphy.gif)
